@@ -1,0 +1,53 @@
+###服务启动端口号
+server:
+  port: 8001
+###服务名称(服务注册到eureka名称)
+spring:
+    application:
+        name: app-order
+    cloud:
+        config:
+        ####读取后缀
+          profile: dev
+          ####读取config-server注册地址
+          discovery:
+            service-id: config-server
+            enabled: true
+management:
+        endpoints:
+            web:
+              exposure:
+                include:  "*"
+
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8100/eureka
+###因为该应用为注册中心，不会注册自己
+    register-with-eureka: true
+###是否需要从eureka上获取注册信息
+    fetch-registry: true
+
+
+###设置feign客户端超时时间
+###SpringCloud feign 默认开启支持ribbon
+ribbon:
+  ReadTimeout: 100000
+  ConnectTimeout: 100000
+  eureka:
+      enabled: true
+
+###开启Hystrix断路器
+feign:
+  hystrix:
+    enabled: true
+#### hystrix禁止服务超时时间
+hystrix:
+ command:
+   default:
+      execution:
+       timeout:
+        enabled: false
+swagger:
+  base-package: com.wubo.api

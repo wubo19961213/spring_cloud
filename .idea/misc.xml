@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_parent/springcloud_api/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_parent/springcloud_api/springcloud_member_api/pom.xml" />
+        <option value="$PROJECT_DIR$/config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/config_client/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/apollo_client/pom.xml" />
+        <option value="D:/Downloads/springcloud资料下载 (1)/springcloud资料下载/SpringCloud消息驱动课程介绍-SpringCloudStream平滑迁移kafka/84-91/讲课代码/mayikt-stream-producer/target/classes/META-INF/maven/com.mayikt/mayikt-stream-producer/pom.xml" />
+        <option value="D:/Downloads/springcloud资料下载 (1)/springcloud资料下载/SpringCloud消息驱动课程介绍-SpringCloudStream平滑迁移kafka/84-91/讲课代码/mayikt-stream-producer/target/classes/META-INF/maven/com.mayikt/mayikt-stream-producer/pom.properties" />
+        <option value="$PROJECT_DIR$/springclound_stream_producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springclound_stream_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springclound_oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2_client/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springcloud_parent/springcloud_zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud_parent/stream_producer/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

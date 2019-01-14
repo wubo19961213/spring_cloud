@@ -1,0 +1,16 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: spingcloud-stream-consumer
+  rabbitmq:
+    ####连接地址
+      host: 127.0.0.1
+     ####端口号
+      port: 5672
+     ####账号
+      username: wubo
+     ####密码
+      password: 123456
+     ### 地址
+      virtual-host: /admin

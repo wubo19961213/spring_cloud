@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apollo_client" />
+        <module name="config_client" />
+        <module name="config_server" />
+        <module name="demo" />
+        <module name="eureka" />
+        <module name="mayikt-stream-producer (3)" />
+        <module name="oauth2_client" />
+        <module name="springcloud_common" />
+        <module name="springcloud_member" />
+        <module name="springcloud_member_api" />
+        <module name="springcloud_order" />
+        <module name="springcloud_order_api" />
+        <module name="springclound_oauth2" />
+        <module name="springclound_pay" />
+        <module name="springclound_pay_api" />
+        <module name="springclound_stream_consumer" />
+        <module name="springclound_stream_producer" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apollo_client" target="1.8" />
+      <module name="config_client" target="1.8" />
+      <module name="config_server" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="mayikt-stream-producer (1)" target="1.5" />
+      <module name="mayikt-stream-producer (2)" target="1.5" />
+      <module name="mayikt-stream-producer (2) (com.mayikt)" target="1.8" />
+      <module name="mayikt-stream-producer (3)" target="1.8" />
+      <module name="mayikt-stream-producer (3) (com.mayikt)" target="1.8" />
+      <module name="oauth2_client" target="1.8" />
+      <module name="springcloud_api" target="1.8" />
+      <module name="springcloud_common" target="1.8" />
+      <module name="springcloud_member" target="1.8" />
+      <module name="springcloud_member_api" target="1.8" />
+      <module name="springcloud_order" target="1.8" />
+      <module name="springcloud_order_api" target="1.8" />
+      <module name="springcloud_parent" target="1.8" />
+      <module name="springcloud_zuul" target="1.8" />
+      <module name="springclound_oauth2" target="1.8" />
+      <module name="springclound_pay" target="1.8" />
+      <module name="springclound_pay_api" target="1.8" />
+      <module name="springclound_stream_consumer" target="1.8" />
+      <module name="springclound_stream_producer" target="1.8" />
+      <module name="stream_producer" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

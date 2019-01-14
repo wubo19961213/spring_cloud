@@ -1,0 +1,38 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/
+server:
+  port: 81
+spring:
+  application:
+    name: service-zuul
+  cloud:
+    config:
+    ####读取后缀
+      profile: dev
+      ####读取config-server注册地址
+      discovery:
+        service-id: config-server
+        enabled: true
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  rabbitmq:
+  ####连接地址
+    host: 127.0.0.1
+   ####端口号
+    port: 5672
+   ####账号
+    username: wubo
+   ####密码
+    password: 123456
+   ### 地址
+    virtual-host: /admin
+###开启bus刷新
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

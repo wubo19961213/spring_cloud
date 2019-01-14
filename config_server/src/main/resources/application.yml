@@ -1,0 +1,23 @@
+
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8100/eureka
+spring:
+  application:
+    ####注册中心应用名称
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          ###git环境地址
+          uri: https://gitee.com/wubo1213/springclound_wubo.git
+          ####搜索目录
+          search-paths:
+            - config_server
+      ####读取分支
+      label: master
+server:
+  port: 8888
